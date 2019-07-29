@@ -44,6 +44,7 @@
 		E05D7B5922DE230200697096 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D7B5822DE230200697096 /* LoginViewController.swift */; };
 		E05D7B5B22DE5F4C00697096 /* AppTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D7B5A22DE5F4C00697096 /* AppTheme.swift */; };
 		E05D7B5D22DE617500697096 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D7B5C22DE617500697096 /* LandingViewController.swift */; };
+		E05D7BA622EF660400697096 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E05D7BA522EF660400697096 /* AuthService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -101,6 +102,7 @@
 		E05D7B5822DE230200697096 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		E05D7B5A22DE5F4C00697096 /* AppTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppTheme.swift; sourceTree = "<group>"; };
 		E05D7B5C22DE617500697096 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
+		E05D7BA522EF660400697096 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -264,6 +266,7 @@
 		E05D7BA422EF598000697096 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				E05D7BA522EF660400697096 /* AuthService.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -461,6 +464,7 @@
 				E055108422CFA22C001C6159 /* AppDelegate.swift in Sources */,
 				E05510C922CFAAB2001C6159 /* LabelCell.swift in Sources */,
 				E05D7B5022DCDE4600697096 /* SWRevealViewController.m in Sources */,
+				E05D7BA622EF660400697096 /* AuthService.swift in Sources */,
 				E05510C522CFAA92001C6159 /* ButtonCell.swift in Sources */,
 				E05510CE22CFAC76001C6159 /* Utils.swift in Sources */,
 			);
